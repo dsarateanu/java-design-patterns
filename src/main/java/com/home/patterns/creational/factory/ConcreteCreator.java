@@ -5,7 +5,7 @@ package com.home.patterns.creational.factory;
  * ConcreteCreator class returns an instance of the ConcreteProduct
  *
  */
-public class ConcreteCreator extends Creator {
+public class ConcreteCreator implements Creator {
 
 	public Product factoryMethod(String type) {
 

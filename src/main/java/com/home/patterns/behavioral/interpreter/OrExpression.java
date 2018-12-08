@@ -7,7 +7,7 @@ import java.util.List;
  * OrExpression implements AbstractExpression for logical OR grammar expression.
  *
  */
-public class OrExpression extends AbstractExpression {
+public class OrExpression implements AbstractExpression {
 
 	private AbstractExpression firstAbstractExpression;
 	private AbstractExpression secondAbstractExpression;

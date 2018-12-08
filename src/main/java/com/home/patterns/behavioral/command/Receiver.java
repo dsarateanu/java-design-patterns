@@ -8,13 +8,13 @@ package com.home.patterns.behavioral.command;
  */
 public class Receiver {
 
-	private boolean operationPerfomed = false;
+    private boolean operationPerformed = false;
 
-	public void action() {
-		operationPerfomed = true;
-	}
+    public void action() {
+        operationPerformed = true;
+    }
 
-	protected boolean isOperationPerfomed() {
-		return operationPerfomed;
-	}
+    protected boolean isOperationPerformed() {
+        return operationPerformed;
+    }
 }

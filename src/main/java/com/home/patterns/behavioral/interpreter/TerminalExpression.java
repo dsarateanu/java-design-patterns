@@ -6,7 +6,7 @@ package com.home.patterns.behavioral.interpreter;
  * grammar.
  *
  */
-public class TerminalExpression extends AbstractExpression {
+public class TerminalExpression implements AbstractExpression {
 
 	private boolean data;
 

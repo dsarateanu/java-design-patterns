@@ -3,11 +3,11 @@ package com.home.patterns.creational.builder;
 /**
  * Builder, declares interface for creating parts of a Product object
  */
-abstract class Builder {
+interface Builder {
 
-	public abstract Builder createProduct();
+	Builder createProduct();
 
-	public abstract Builder buildPart1(String part);
+	Builder buildPart1(String part);
 
-	public abstract Builder buildPart2(String part);
+	Builder buildPart2(String part);
 }

@@ -6,8 +6,8 @@ package com.home.patterns.behavioral.interpreter;
  * used by TerminalEpression and NonTerminalEpression.
  *
  */
-public abstract class AbstractExpression {
+interface AbstractExpression {
 
-	abstract void interpret(Context context);
+	void interpret(Context context);
 
 }

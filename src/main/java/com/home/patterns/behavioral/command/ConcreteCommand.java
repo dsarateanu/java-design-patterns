@@ -8,13 +8,13 @@ package com.home.patterns.behavioral.command;
  */
 public class ConcreteCommand implements Command {
 
-	private Receiver receiver;
+    private Receiver receiver;
 
-	public ConcreteCommand(Receiver receiver) {
-		this.receiver = receiver;
-	}
+    public ConcreteCommand(Receiver receiver) {
+        this.receiver = receiver;
+    }
 
-	public void execute() {
-		this.receiver.action();
-	}
+    public void execute() {
+        this.receiver.action();
+    }
 }

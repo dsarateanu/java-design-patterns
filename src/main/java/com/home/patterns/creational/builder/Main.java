@@ -31,7 +31,7 @@ public class Main {
 		// get Product from builder
 		Product product = builder.getResult();
 
-		System.err.print(product.getPart1().equals("part1"));
-		System.err.print(product.getPart2().equals("part2"));
+		System.err.println(product.getPart1().equals("part1"));
+		System.err.println(product.getPart2().equals("part2"));
 	}
 }

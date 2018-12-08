@@ -11,7 +11,7 @@ import java.util.List;
 public class Context {
 
 	// holds a list of operands which are in fact TerminalExpressions
-	private List<Boolean> operands = new ArrayList<Boolean>();
+	private List<Boolean> operands = new ArrayList<>();
 
 	// holds result of expression
 	private Boolean result = null;

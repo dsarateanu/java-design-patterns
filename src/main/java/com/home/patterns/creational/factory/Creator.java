@@ -3,7 +3,7 @@ package com.home.patterns.creational.factory;
 /**
  * Creator class declares factory method
  */
-abstract class Creator {
+interface Creator {
 
-	abstract Product factoryMethod(String type);
+	Product factoryMethod(String type);
 }

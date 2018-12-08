@@ -8,7 +8,7 @@ import java.util.List;
  * expression.
  *
  */
-public class AndExpression extends AbstractExpression {
+public class AndExpression implements AbstractExpression {
 
 	private AbstractExpression firstAbstractExpression;
 	private AbstractExpression secondAbstractExpression;

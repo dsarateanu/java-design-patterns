@@ -4,7 +4,7 @@ package com.home.patterns.creational.builder;
  * ConcreteBuilder class, constructs and assembles parts of the Product by
  * implementing the Builder interface
  */
-public class ConcreteBuilder extends Builder {
+public class ConcreteBuilder implements Builder {
 
 	private Product product;
 
